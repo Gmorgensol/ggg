@@ -6,9 +6,18 @@
 </head>
 
 <body>
+
+<h1>Det mest spillede spil på internettet</h1>
+
 <button type="button", onClick="cookieClick(1)">Generate!</button>
 <span>Cookies generated:</span>
 <span id="cookies">0</span>
+
+<br></br>
+
+<button type="button", onClick="cookieCakeClick()">Buy CookieCake!</button>
+<span>CookieCakes:</span>
+<span id="cookieCakes">0</span>
 
 <br></br>
 
@@ -16,10 +25,27 @@
 Cursors: <span id="cursors">0</span><br />
 Cost: <span id="cursorCost">10</span>
 
+<br></br>
+
 <button type="button", onClick="upgCursor()">Upgrade Cursor!</button>
-Cursors: <span id="cursorUpgrades">0</span><br />
+Cursor level: <span id="cursorUpgrades">0</span><br />
 Cost: <span id="cursorUpgradeCost">100</span>
 Multiplier: <span id="cursorMulti">0</span>%
+
+<br></br>
+
+<button type="button", onClick="morgensol()">Tryk her Morgensol</button>
+
+<br></br>
+
+<button type="button", onClick="buyConvert()">Buy cookieCake generator!</button>
+Converts: <span id="cookieConverts">0</span><br />
+Cost: <span id="convertCost">100</span>
+
+<br></br>
+
+<button type="button", onClick="hardReset()">Hard Reset the game!</button>
+
 
 <script type="text/javascript" src="main.js"></script>
 </body>
